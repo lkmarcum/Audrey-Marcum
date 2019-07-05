@@ -18,6 +18,9 @@
       #800080,
       #4d004d
     );
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-evenly;
     img {
       width: 80%;
       margin: 10px 0px 20px 10px;
@@ -26,6 +29,16 @@
     p {
       width: 80%;
       padding: 10px;
+    }
+    nav {
+      ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 200px;
+        padding-left: 50px;
+        font-size: 2.5rem;
+      }
     }
   }
   .scroll-content {
