@@ -124,6 +124,7 @@ table {
 }
 * {
   box-sizing: border-box;
+  color: white;
 }
 html {
   font-size: 62.5%;
@@ -169,9 +170,73 @@ img {
 }
 .container header {
   width: 25%;
-  background: red;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, #800080, #800080, #800080, #800080, #800080, #4d004d);
+  display: flex;
+  flex-direction: column;
+}
+.container header img {
+  width: 80%;
+  margin: 10px 0px 20px 10px;
+  border-radius: 10px;
+}
+.container header p {
+  width: 80%;
+  padding: 10px;
+}
+.container header nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 200px;
+  padding-left: 50px;
+  font-size: 2.5rem;
 }
 .container .scroll-content {
-  width: 75%;
-  background: blue;
+  width: 100%;
+  margin-left: 25%;
+  background: #4d004d;
+}
+.container .scroll-content .top-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 50px 20px 50px;
+}
+.container .scroll-content .top-content .headline {
+  width: 60%;
+  text-align: center;
+}
+.container .scroll-content .top-content img {
+  width: 60%;
+  margin: 20px 50px 20px 50px;
+  border-radius: 10px;
+}
+.container .scroll-content .main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 50px 20px 50px;
+}
+.container .scroll-content .main-content .intro {
+  width: 50%;
+}
+.container .scroll-content .main-content .content-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+.container .scroll-content .main-content .content-links img {
+  width: 25%;
+  border-radius: 10px;
+}
+.container .scroll-content .copyright {
+  text-align: center;
+  margin: 50px 0px 50px 0px;
 }
