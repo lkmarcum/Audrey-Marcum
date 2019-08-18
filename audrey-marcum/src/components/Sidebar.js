@@ -6,8 +6,7 @@ const Sidebar = props => {
     <header className="sidebar-container">
       <img src={audrey} />
       <p className="side-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+        Change is expected, growth is voluntary—and so much fun!
       </p>
       <div className="link-container">
         <p>Link 1</p>

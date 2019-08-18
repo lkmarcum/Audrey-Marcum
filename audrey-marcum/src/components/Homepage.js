@@ -10,8 +10,10 @@ const Homepage = props => {
     <div className="home-content">
       <img src={construction} className="construction" />
       <p className="top-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+        My passion is people and my expertise is learning. This website will
+        serve a triple purpose: a bibliography of past guides, a repository of
+        completed works, and a tracker documenting new learning. Thank you for
+        joining me on my journey toward wisdom.
       </p>
       <img src={pupper} className="top-img" />
       <p className="middle-text">
