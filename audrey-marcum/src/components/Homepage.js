@@ -28,7 +28,7 @@ const Homepage = props => {
       <div className="img-links">
         <img src={poetry} />
         <img src={art} />
-        <img src={books} />
+        <img src={books} onClick={props.bookPage} />
       </div>
       <p className="bottom-text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
