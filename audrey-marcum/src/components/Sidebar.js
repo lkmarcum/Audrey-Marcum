@@ -8,12 +8,12 @@ const Sidebar = props => {
       <p className="side-text">
         Change is expected, growth is voluntary—and so much fun!
       </p>
-      <div className="link-container">
+      {/* <div className="link-container">
         <p>Link 1</p>
         <p>Link 2</p>
         <p>Link 3</p>
         <p>Link 4</p>
-      </div>
+      </div> */}
     </header>
   );
 };
