@@ -1,6 +1,6 @@
 import React from "react";
 import book from "../journey_with_bipolar.pdf";
-import logo from "../logo.svg";
+import logo from "../logo2.svg";
 
 const Homepage = props => {
   return (

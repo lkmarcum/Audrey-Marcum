@@ -57,8 +57,12 @@ header img {
 
 .home-content img {
   position: absolute;
-  top: -90px;
-  left: 78%;
+  top: 40px;
+  right: 5%;
+  width: 130px;
+  height: auto;
+  box-shadow: 3px 3px 5px gray;
+  border-radius: 100px;
 }
 
 .home-content h1 {
