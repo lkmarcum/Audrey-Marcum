@@ -1,33 +1,42 @@
 .App {
   display: flex;
   flex-direction: row;
+  height: 100%;
+  width: 100%;
+  min-height: 100%;
 }
 
 .sidebar-container {
   width: 20%;
   position: fixed;
-  height: 100%;
   top: 0;
   left: 0;
   display: flex;
   flex-direction: column;
+  height: 100%;
+  min-height: 100%;
+  align-items: center;
+  /* justify-content: space-between; */
   background: rgba(153, 0, 255, 0.25);
   border-right: 5px solid rgb(241, 180, 180);
 }
 
 header img {
   width: 85%;
-  margin: 40px 0 10px 20px;
+  margin: 40px 0 10px 0px;
   border-radius: 10px;
+  height: auto;
 }
 
 .side-text {
-  width: 80%;
+  width: 90%;
   padding: 20px;
   color: rgb(70, 20, 70);
+  font-size: 2.3rem;
+  /* flex-grow: 1; */
 }
 
-.link-container {
+/* .link-container {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -41,7 +50,7 @@ header img {
 .link-container p {
   height: 40px;
   margin: 5px;
-}
+} */
 
 .home-content {
   width: 80%;
@@ -53,6 +62,7 @@ header img {
   margin-left: 20%;
   margin-top: 5%;
   color: rgb(70, 20, 70);
+  font-size: 2rem;
 }
 
 .home-content img {
@@ -67,6 +77,12 @@ header img {
 
 .home-content h1 {
   margin-top: 50px;
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.home-content p {
+  margin-bottom: 15px;
 }
 
 .button-container {
