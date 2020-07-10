@@ -21,11 +21,23 @@
   border-right: 5px solid rgb(241, 180, 180);
 }
 
+@media (max-width: 500px) {
+  .sidebar-container {
+    display: none;
+  }
+}
+
 header img {
   width: 85%;
   margin: 40px 0 10px 0px;
   border-radius: 10px;
   height: auto;
+}
+
+@media (max-width: 500px) {
+  header img {
+    display: none;
+  }
 }
 
 .side-text {
@@ -65,6 +77,13 @@ header img {
   font-size: 2rem;
 }
 
+@media (max-width: 500px) {
+  .home-content {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
 .home-content img {
   position: absolute;
   top: 40px;
@@ -75,10 +94,24 @@ header img {
   border-radius: 100px;
 }
 
+@media (max-width: 500px) {
+  .home-content img {
+    top: 20px;
+    width: 24%;
+    right: 5%;
+  }
+}
+
 .home-content h1 {
   margin-top: 50px;
   font-size: 4rem;
   margin-bottom: 20px;
+}
+
+@media (max-width: 500px) {
+  .home-content h1 {
+    margin-top: 100px;
+  }
 }
 
 .home-content p {
@@ -89,6 +122,14 @@ header img {
   margin-top: 40px;
 }
 
+@media (max-width: 500px) {
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
 .button-container a {
   margin-right: 20px;
   text-decoration: none;
@@ -97,6 +138,14 @@ header img {
   border-radius: 5px;
   color: rgb(70, 20, 70);
   /* width: 600px; */
+}
+
+@media (max-width: 500px) {
+  .button-container a {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
 }
 
 .button-container a:hover {
